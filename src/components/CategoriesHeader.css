@@ -1,0 +1,21 @@
+.categoriesLink {
+  text-align: center;
+  margin-top: 40px;
+  border-color: rgb(104, 103, 103);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.categoriesLink a {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+  font-weight: 500;
+  margin-left: 30px;
+  padding: 5px 10px;
+  border: 2px solid rgb(121, 117, 117);
+  margin-bottom: 20px;
+}
+.categoriesLink a:hover {
+  border: 2px solid rgb(36, 35, 35);
+}
