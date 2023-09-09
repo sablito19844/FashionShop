@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import TrendingSlider from "../components/TrendingSlider";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
-import Banner1 from "../images/Blog-Header-Image.jpg";
+import Banner1 from "../images/023.jpg";
 
 const Home = () => {
   return (

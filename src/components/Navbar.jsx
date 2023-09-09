@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import clothesLogo from "../images/clothes-logo.png";
+import clothesLogo from "../images/024.png";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";

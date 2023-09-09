@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Hero.css";
-import Main1 from "../images/casual wear/man-7447707_1920 (1).jpg";
-import Main2 from "../images/formal wear/5da3bbdf36535e74752f7c6d31bb5cc1.jpg";
-import Main3 from "../images/sports wear/71Cf7GM+zBL._AC_UF1000,1000_QL80_.jpg";
-import Main4 from "../images/Accessories/pexels-umut-sarıalan-17921996.jpg";
+import Main1 from "../images/casual wear/007.jpg";
+import Main2 from "../images/formal wear/009.jpg";
+import Main3 from "../images/sports wear/016.jpg";
+import Main4 from "../images/Accessories/038.jpg";
 
 import { Link } from "react-router-dom";
 
