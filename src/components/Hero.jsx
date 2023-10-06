@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Hero.css";
-import Main1 from "../images/casual wear/007.jpg";
+import Main1 from "../images/051.jpg";
 import Main2 from "../images/formal wear/009.jpg";
 import Main3 from "../images/sports wear/016.jpg";
 import Main4 from "../images/Accessories/038.jpg";

@@ -5,6 +5,7 @@ import TrendingSlider from "../components/TrendingSlider";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import Banner1 from "../images/023.jpg";
+import ProudProduct from "../components/ProudProduct";
 
 const Home = () => {
   return (
@@ -15,8 +16,9 @@ const Home = () => {
         text=" MOHAMED Products are all made to standard sizes so that you can mix and match them freely."
         img={Banner1}
       />
-      {/*<TrendingSlider />
-      <Newsletter /> */}
+      <ProudProduct />
+      <TrendingSlider />
+      {/*<Newsletter /> */}
       <Footer />
     </>
   );

@@ -22,7 +22,7 @@
 .main-description {
     position: absolute;
     bottom: 2rem;
-    left: 1.5rem;
+    left: 0.7rem;
     color: white;
     font-size: 35px;
     font-weight: 600;
@@ -97,7 +97,7 @@
 @media (max-width:450px) {
     .main-description {
         bottom: 1rem;
-        left: 0.5rem;
+        left: 0.3rem;
         font-size: 20px !important;
     }
 }
@@ -105,7 +105,7 @@
 @media (max-width:400px) {
     .main-description {
         bottom: 1rem;
-        left: 0.5rem;
+        left: 0.2rem !important;
         font-size: 15px !important;
     }
 }
