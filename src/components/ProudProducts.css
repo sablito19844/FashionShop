@@ -18,7 +18,7 @@ a {
     outline-offset: -2px;
     transition: all 0.15s ease-in;
     cursor: pointer;        
-    text-align: center;
+    text-align: center !important;
 }
 
 .product:hover {
