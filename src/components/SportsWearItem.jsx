@@ -7,11 +7,17 @@ const SportsWearItem = () => {
    
     // get ids between tow ranges
    
-   const minRange = 15;
+   /* const minRange = 15;
    const maxRange = 22;
    const filteredItems = items.filter((item) => {
      return item.id >= minRange && item.id <= maxRange;
-   });
+   }); */
+
+   // find multiple objects that satisfy a condition
+   const desiredItem = "sports wear"
+   const filteredItems = items.filter(obj => 
+    {return obj.category === desiredItem}
+   )
    
  
    return (

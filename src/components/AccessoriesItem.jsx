@@ -7,12 +7,17 @@ const AccessoriesItem = () => {
    
     // get ids between tow ranges
    
-   const minRange = 25;
+   /* const minRange = 25;
    const maxRange = 39;
    const filteredItems = items.filter((item) => {
      return item.id >= minRange && item.id <= maxRange;
-   });
+   }); */
    
+   // find multiple objects that satisfy a condition
+   const desiredItem = "accessories"
+   const filteredItems = items.filter(obj => 
+     obj.category === desiredItem
+   )
  
    return (
      <>

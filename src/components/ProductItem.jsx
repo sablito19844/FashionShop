@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 
 function ProductItem() {
   const specificProduct = [2,4,7,17,30,35,37,36]
-  const filteredItems = items.filter((item) => specificProduct.includes(item.id));
-
+  const filteredItems = items.filter((item) => specificProduct.includes(item.id)); 
   return (
     <>
       {filteredItems.map((item) => (

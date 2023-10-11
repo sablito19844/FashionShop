@@ -7,12 +7,18 @@ const FormalWearItem = () => {
    
     // get ids between tow ranges
    
-   const minRange = 9;
+   /* const minRange = 9;
    const maxRange = 14;
    const filteredItems = items.filter((item) => {
      return item.id >= minRange && item.id <= maxRange;
    });
-   
+    */
+
+   // find multiple objects that satisfy a condition
+   const desiredItem = "formal wear"
+   const filteredItems = items.filter((obj) => {
+    return obj.category === desiredItem
+   })
  
    return (
      <>
